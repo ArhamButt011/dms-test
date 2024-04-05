@@ -1,0 +1,7 @@
+{
+  "name": "dms-project",
+  "scripts": {
+    "build": "python manage.py collectstatic --no-input",
+    "now-build": "python manage.py migrate && python manage.py collectstatic --no-input"
+  }
+}
