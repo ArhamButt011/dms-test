@@ -13,3 +13,4 @@ frontend/package-lock.json
 frontend/package-lock.json
 frontend/package.json
 frontend/src/pages/dmsDirectory/DMSDirectory.jsx
+.vercel

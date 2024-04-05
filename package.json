@@ -1,7 +1,7 @@
 {
-  "name": "dms-project",
+  "name": "my-django-project",
   "scripts": {
-    "build": "python manage.py collectstatic --no-input",
-    "now-build": "python manage.py migrate && python manage.py collectstatic --no-input"
+    "build": "python3 manage.py collectstatic --no-input",
+    "now-build": "python3 manage.py migrate && python3 manage.py collectstatic --no-input"
   }
 }
