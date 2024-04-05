@@ -3,13 +3,17 @@
   "builds": [
     {
       "src": "package.json",
-      "use": "@vercel/python"
+      "use": "@vercel/python",
+      "config": {
+        "pythonVersion": "3.9.x",
+        "pipPath": "python3 -m pip"
+      }
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "server.py"
+      "dest": "package.json"
     }
   ]
 }
