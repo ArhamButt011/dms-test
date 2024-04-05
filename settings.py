@@ -147,6 +147,7 @@ APPEND_SLASH = False
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
+# STATIC_URL = '/static/'
 STATIC_URL = '/static/'
 
 # Default primary key field type
@@ -195,4 +196,6 @@ PASSWORD_RESET_TIMEOUT=900              #900 Sec = 15 Mint
 CORS_ALLOW_ALL_ORIGINS = True
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
+    "https://dms-cms-project.vercel.app/"
 ]
+
